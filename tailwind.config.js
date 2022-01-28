@@ -9,5 +9,12 @@ module.exports = {
   theme: {
     extend: {},
   },
+  colors: {
+    transparent: "transparent",
+    current: "currentColor",
+    testred: {
+      base: "#ffff",
+    },
+  },
   plugins: [],
 };

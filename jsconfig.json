@@ -20,5 +20,8 @@
     "node_modules",
     ".nuxt",
     "dist"
-  ]
+  ],
+  "resolveSourceMapLocations": [
+    "!**/node_modules/**"
+  ],
 }

@@ -1,0 +1,50 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Variables */
+
+/* colors */
+
+:root {
+  /* colors */
+  --hue: 189;
+  /* HSL color mode */
+  /* --base-color: hsl(var(--hue), 70%, 9%);
+  --base-color-second: hsl(var(--hue) 100% 23%); */
+
+  --base-color: hsl(var(--hue), 100%, 23%);
+  --base-color-second: hsl(var(--hue), 70%, 9%);
+
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+}
+
+.border-base {
+  --tw-border-opacity: 1;
+  border-color: var(--base-color);
+}
+
+.bg-base {
+  background: var(--base-color);
+}
+
+.bg-base-second {
+  background: var(--base-color-second);
+}

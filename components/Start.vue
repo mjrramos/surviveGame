@@ -4,9 +4,10 @@
       <div class="font-bold text-9xl text-center items-center text-gray-700">
         <h1>Survive Game</h1>
         <p class="text-5xl">As suas escolhas definem o seu caminho!</p>
-        <img src="~/assets/images/start.gif" alt="" />
+        <!-- <img src="~/assets/images/start.gif" alt="" /> -->
+        <ImgF1 />
         <button>
-          <a href="">Start</a>
+          <a href="/play/1">Start</a>
         </button>
       </div>
       <!-- <div class="flex justify-center">

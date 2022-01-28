@@ -1,3 +1,5 @@
 <template>
-  <div>play 1</div>
+  <div class="container">
+  <Questions />
+  </div>
 </template>
