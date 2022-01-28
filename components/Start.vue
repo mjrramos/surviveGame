@@ -16,21 +16,11 @@
   </div>
 </template>
 
-<script>
-export default {
-  setup() {},
-};
-</script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
-.backcolor {
-  background: rgba(24, 44, 59, 1);
-  font-family: "Amatic SC", sans-serif;
-}
-
 .backcolor h1,
-p {
+p,
+button {
   color: #fff;
 }
-</style>
+</style>;
