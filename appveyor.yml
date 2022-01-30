@@ -9,7 +9,7 @@ environment:
 # Only run on master branch
 branches:
   only:
-    - master
+    - main
 
 # Install scripts. (runs after repo cloning)
 install:
