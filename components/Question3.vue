@@ -1,5 +1,5 @@
 <template>
-  <body class="antialiased text-white">
+  <div class="antialiased text-white">
     <div class="flex w-full h-screen justify-evenly items-center">
       <div class="w-full max-w-4xl">
         <h1 class="font-bold text-5xl text-center">
@@ -38,7 +38,7 @@
         <img class="lg:max-w-xl rounded-2xl" src="~/assets/images/start.gif" alt="">
       </div>
     </div>
-  </body>
+  </div>
 </template>
 
 <script>

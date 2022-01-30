@@ -1,5 +1,5 @@
 <template>
-  <body class="antialiased text-white">
+  <div class="antialiased text-white">
     <div class="flex w-full h-screen justify-center items-center">
       <div class="w-full max-w-4xl">
         <h1 class="font-bold text-5xl text-center">
@@ -12,13 +12,14 @@
           <div class="items-center grid justify-items-center">
             <img class="lg:max-w-xl rounded-full" src="~/assets/images/pulo.gif" alt="">
           </div>
+          
           <div class="flex justify-end">
             <a class="span inline-block bg-base p-5 rounded-full text-base text-white tracking-wide" href="/play/2">Próxima fase</a>
           </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
 </template>
 
 <style scoped>

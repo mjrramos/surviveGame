@@ -1,5 +1,5 @@
 <template>
-  <body class="antialiased text-white">
+  <div class="antialiased text-white">
     <div class="flex w-full h-screen justify-center items-center">
       <div class="w-full max-w-4xl">
         <h1 class="font-bold text-5xl text-center">
@@ -13,16 +13,17 @@
             <img class="lg:max-w-xl rounded-xl" src="~/assets/images/gover.png" alt="">
           </div>
           <div class="mt-4 flex justify-center">
-            <a class="span inline-block bg-base p-5 rounded-full text-base text-white tracking-wide" href="/">Voltar ao ínicio</a>
+            <a class="button mr-2 inline-block bg-base p-5 rounded-full text-base text-white tracking-wide" href="/play/1">Tente novamente</a>
+            <a class="button inline-block bg-base p-5 rounded-full text-base text-white tracking-wide" href="/">Voltar ao início</a>
           </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
 </template>
 
 <style scoped>
-  label:hover {
+  button:hover {
     background: var(--base-color);
   }
 </style>

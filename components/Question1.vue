@@ -1,5 +1,5 @@
 <template>
-  <body class="antialiased text-white">
+  <div class="antialiased text-white">
     <div class="start min-h-screen w-screen flex justify-center items-center flex-col-reverse lg:flex-row lg:justify-around">
       <div class="w-full max-w-4xl">
         <h1 class="font-bold text-5xl text-center">
@@ -38,7 +38,7 @@
         <img class="lg:max-w-xl rounded-2xl" src="~/assets/images/start.gif" alt="">
       </div>
     </div>
-  </body>
+  </div>
 </template>
 
 <script>
@@ -88,6 +88,7 @@ export default {
        this.selected = event.target.value
        if(this.selected == 'a')
        {
+         this.selected == ''
          this.$router.push('/play/1/outcome/1')
        }
        else if(this.selected == 'b')
@@ -96,6 +97,7 @@ export default {
          this.$router.push('/play/1/outcome/2')
        }
        else{
+         this.selected == ''
          this.$router.push('/play/1/outcome/3')
        }
     },
