@@ -38,4 +38,9 @@ export default {
   tailwindcss: {
     viewer: false,
   },
+  generate: {
+    minify: {
+      collapseWhitespace: false,
+    },
+  },
 };
