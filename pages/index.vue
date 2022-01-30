@@ -1,5 +1,5 @@
 <template>
-  <body>
-    <Start />
-  </body>
+  <div class="container">
+    <Starts />
+  </div>
 </template>

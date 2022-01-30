@@ -1,5 +1,6 @@
 <template>
   <div class="container">
-  <Question1 />
+    <Question2 />
   </div>
+  
 </template>

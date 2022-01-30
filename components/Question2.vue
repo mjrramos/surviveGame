@@ -3,7 +3,7 @@
     <div class="start min-h-screen w-screen flex justify-center items-center flex-col-reverse lg:flex-row lg:justify-around">
       <div class="w-full max-w-4xl">
         <h1 class="font-bold text-5xl text-center">
-          Fase 1
+          Fase 2
         </h1>
         <div class="bg-base-second p-12 rounded-lg shadow-sm w-full mt-10">
           <p class="text-xl font-mono text-justify">
@@ -46,7 +46,7 @@
 export default {
   data(){
     return {
-      i:0,
+      i:1,
       selected: '',
       questions: [
         {
@@ -88,15 +88,15 @@ export default {
        this.selected = event.target.value
        if(this.selected == 'a')
        {
-         this.$router.push('/play/1/outcome/1')
+         this.$router.push('/play/2/outcome/1')
        }
        else if(this.selected == 'b')
        {
          this.selected == ''
-         this.$router.push('/play/1/outcome/2')
+         this.$router.push('/play/2/outcome/2')
        }
        else{
-         this.$router.push('/play/1/outcome/3')
+         this.$router.push('/play/2/outcome/3')
        }
     },
     checkAnswer(){
