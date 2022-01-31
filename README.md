@@ -18,5 +18,5 @@ $ npm run start
 $ npm run generate
 ```
 
-Live server Heroku: https://survivor-game-nuxt.herokuapp.com/play/1/outcome/2
-Créditos das imagens e assets 2D: https://jesse-m.itch.io/jungle-pack
+# Live server Heroku: https://survivor-game-nuxt.herokuapp.com/play/1/outcome/2
+# Créditos das imagens e assets 2D: https://jesse-m.itch.io/jungle-pack
