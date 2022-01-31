@@ -2,9 +2,10 @@
   <div class="antialiased text-white">
     <div class="flex w-full h-screen justify-center items-center">
       <div class="w-full max-w-4xl">
-        <h1 class="font-bold text-5xl text-center">
+        <h1 class="font-bold text-4xl text-center">
           Puxa toda coragem do coração e enfrenta o homem!
         </h1>
+        <NavBreadcrumb idf="1" />
         <div class="bg-base-second p-12 rounded-lg shadow-sm w-full mt-10">
           <p class="text-xl font-mono mb-6">
             Você consegue desviar da primeira marretada do homem, que fica ocioso por um curto período, o suficiente para você acertá-lo em cheio na cabeça e apagá-lo no chão.

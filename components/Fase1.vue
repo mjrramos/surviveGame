@@ -5,6 +5,7 @@
         <h1 class="font-bold text-5xl text-center">
           Sobe na árvore!
         </h1>
+          <NavBreadcrumb idf="1" />
         <div class="bg-base-second p-12 rounded-lg shadow-sm w-full mt-10">
           <p class="text-xl font-mono mb-6">
             Você sobe na árvore e escapa por pouco da manada.

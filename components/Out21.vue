@@ -6,6 +6,7 @@
           Foge para bem longe e...
         </h1>
         <div class="bg-base-second p-12 rounded-lg shadow-sm w-full mt-10">
+          
           <p class="text-xl font-mono mb-6">
             Você consegue fugir do local e voltar à cidade, porém sem nenhuma ideia de quem o atacou. Você continua tentando juntar as peças do quebra-cabeças. 2 semanas depois você morre atropelado, “acidentalmente”, ao sair de casa.
           </p>

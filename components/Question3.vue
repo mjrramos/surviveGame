@@ -1,10 +1,11 @@
 <template>
   <div class="antialiased text-white">
-    <div class="flex w-full h-screen justify-evenly items-center">
+    <div class="start min-h-screen w-screen flex justify-center items-center flex-col-reverse lg:flex-row lg:justify-around">
       <div class="w-full max-w-4xl">
         <h1 class="font-bold text-5xl text-center">
           Fase 3
         </h1>
+        <NavBreadcrumb idf="2" />
         <div class="bg-base-second p-12 rounded-lg shadow-sm w-full mt-10">
           <p class="text-xl font-mono text-justify">
             {{ questions[2]['question']}}
